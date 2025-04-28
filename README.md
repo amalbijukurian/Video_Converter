@@ -1,6 +1,6 @@
 # Video Converter
 
-A simple PyQt-based GUI application that allows users to convert video files to different formats using FFmpeg.
+A simple PyQt-based GUI application that allows users to convert video files to different formats using FFmpeg. exe file inside the dist folder can be used to run the application. For now hardware acceleration using NVENC is not working, will be updated later.
 
 ## Features
 
