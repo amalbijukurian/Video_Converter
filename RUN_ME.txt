@@ -1,0 +1,36 @@
+==================================================
+VIDEO CONVERTER APPLICATION
+==================================================
+
+This application allows you to convert video files between different formats using FFmpeg.
+
+REQUIREMENTS:
+- Python 3.6 or higher
+- PyQt5 (included in requirements.txt)
+- FFmpeg (must be installed separately)
+
+INSTALLATION:
+1. Install Python dependencies:
+   pip install -r requirements.txt
+
+2. Install FFmpeg from https://ffmpeg.org/download.html
+   - Windows: Download, extract, and add to PATH
+   - macOS: Use Homebrew: brew install ffmpeg
+   - Linux: Use package manager: sudo apt install ffmpeg
+
+RUNNING THE APPLICATION:
+1. Open a terminal/command prompt in this directory
+2. Run: python video_converter.py
+
+FEATURES:
+- Convert videos to various formats (mp4, mkv, avi, etc.)
+- Select quality presets (ultrafast to veryslow)
+- Batch convert multiple files
+- View video information (resolution, codec, duration, etc.)
+- Drag and drop support
+
+TROUBLESHOOTING:
+- If you see "FFmpeg not found" error, make sure FFmpeg is properly installed and in your PATH
+- For further help, refer to the README.md file
+
+================================================== 
